@@ -1,87 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>Css Position</title>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <style>
-      html {
-        background-color: black;
-      }
-      .container1 {
-        background-color: yellow;
-        position: absolute;
-        top: ;
-        bottom: ;
-        left: ;
-        rigth: ;
-        .container2 {
-        background-color: red;
-        position: absolute;
-        top: ;
-        bottom: ;
-        left: ;
-        rigth: ;
-          .container3 {
-        background-color: blue;
-        position: absolute;
-        top: ;
-        bottom: ;
-        left: ;
-        rigth: ;
-            .container4 {
-        background-color: green;
-        position: absolute;
-        top: ;
-        bottom: ;
-        left: ;
-        rigth: ;
-              .container5 {
-        background-color: brown;
-        position: absolute;
-        top: ;
-        bottom: ;
-        left: ;
-        rigth: ;
-      }
-              .container6 {
-        background-color: orange;
-        position: absolute;
-        top: ;
-        bottom: ;
-        left: ;
-        rigth: ;
-                .container7 {
-        background-color: purple;
-        position: absolute;
-        top: ;
-        bottom: ;
-        left: ;
-        rigth: ;
-                  .container8 {
-        background-color: white;
-        position: absolute;
-        top: ;
-        bottom: ;
-        left: ;
-        rigth: ;
+        html {
+            background-color: #080202;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .container {
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            margin: 0 5px; /* Espacio entre contenedores */
+        }
+
+        .container1 { background-color: #FCE9F1; }
+        .container2 { background-color: #F1D4E5; }
+        .container3 { background-color: #73BBC9; }
+        .container4 { background-color: #F1D4E5; }
+        .container5 { background-color: #73BBC9; }
+        .container6 { background-color: #FCE9F1; }
+        .container7 { background-color: #73BBC9; }
+        .container8 { background-color: #FCE9F1; }
+        .container9 { background-color: #FCE9F1; }
+        #block {
+            margin-top: 15vw;
+            margin-block: 15vw;
+            margin-left: 20vw;
+            margin-right: 20vw;
+        }
     </style>
-  </head>
-  <body>
-    <div class="container1">
-      <div/>
-        <div class="container2">
-      <div/>
-        <div class="container3">
-      <div/>
-        <div class="container4">
-      <div/>
-        <div class="container5">
-      <div/>
-        <div class="container6">
-      <div/>
-        <div class="container7">
-      <div/>
-        <div class="container8">
-      <div/>
-  </body>
+</head>
+<body>
+    <div id="block"> 
+    <div class="row">
+        <div class="container container1"></div>
+        <div class="container container2"></div>
+        <div class="container container3"></div>
+        <div class="container container4"></div>
+        <div class="container container5"></div>
+    </div>
+    
+    <div class="row">
+        <div class="container container1"></div>
+        <div class="container container2"></div>
+        <div class="container container3"></div>
+        <div class="container container4"></div>
+        <div class="container container5"></div>
+    </div>
+    
+    <div class="row">
+        <div class="container container1"></div>
+        <div class="container container2"></div>
+        <div class="container container3"></div>
+        <div class="container container4"></div>
+        <div class="container container5"></div>
+    </div>
+    
+    <div class="row">
+        <div class="container container1"></div>
+        <div class="container container2"></div>
+        <div class="container container3"></div>
+        <div class="container container4"></div>
+        <div class="container container5"></div>
+    </div>
+</div>
+</body>
 </html>
