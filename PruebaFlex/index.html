@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: black;
+    height: 100vh;
+}
+.grid{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    height: 100vh;
+    margin: 0;
+}
+
+.gContainer{
+background-color: aquamarine;
+border-radius: 5px;
+padding: 10px;
+margin: 0;
+}
+
+.gContainer1{
+grid-area: 1/1/3/13 ;
+}
+
+.gContainer2{
+grid-area: 3/1/11/5;
+}
+
+.gContainer3{
+grid-area: 3/5/11/13;
+
+}
+
+.gContainer4{
+grid-area: 11/1/13/13;
+}
+
+.gItem{
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="grid">
+<div class="gContainer gContainer1"></div>
+<div class="gContainer gContainer2"></div>
+<div class="gContainer gContainer3"><p class="gItem gItem1">hsjdbyhdbdhs dncudbdnchdbdbd c
+    jdkdjdbhd dj didshdn isoehrbxusn cmfis hchdudd jcndudbdocbd
+     chdusjdbd chfjsbdd cjcidkendudbdbfjchdbdncuch dndudj fhdud djd cj djs djdjd 
+      djdjdindhd djsowoejeubd d d xjdbd djdhdhdbdn sjsjsjs zjsis shxie sishdjxu djsis
+       xbsusbdi xhd djd djdd sh hffjjh ggj gdhjb fgmbdfhjvft ygkft
+       bfujvfgjjh hfhj hgbmjh hh hgvkgfbj h
+       dddddggghhjjjjjjn h h hfj hfdbb hc uf 
+       fhjhgvbyff fswrhyrdvhb hb gb ghjyf hdgkbfrb ghnf hcb
+       gunnfry gddmitg gdubv fyjcdnbtf gruhvryjbg hdubg gujrg gnf 
+       hyjhry hjcryhv vhjtf hdbky htjjvthjnctb hjgf
+       gujvguhvr yhnbyi hhkhggnhf hfwwtjjb fumvrvj
+       gujgy vdeyjiyrexh hola b hgcbh  hola vng j
+       ggjb he Buff big hug gbnfyb BBC birds 
+       hug chuffed ch fjhf foggy Fujifilm club big gjy
+       guys FC FCI dnd CC HC UV bgjhg.</p></div>
+<div class="gContainer gContainer4"></div>
+    </div>
+
+</body>
+</html>
